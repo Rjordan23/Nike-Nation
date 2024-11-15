@@ -10,7 +10,7 @@ const ShoeCard = ({imgURL, changeBigShoeImage, bigShoeImg}) => {
     <div className={`border-2 rounded-xl
       ${bigShoeImg === imgURL.bigShoe
         ? 'border-coral-red'
-        : 'border-transparent'
+        : 'border-gray-400 border-opacity-50'
       } cursor-pointer max-sm:flex-1
     `}
     onClick={handleClick}
@@ -25,7 +25,6 @@ const ShoeCard = ({imgURL, changeBigShoeImage, bigShoeImg}) => {
           className="object-contain" 
         />
       </div>
-      
     </div>
   )
 }
