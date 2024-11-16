@@ -9,7 +9,7 @@ const ShoeCard = ({imgURL, changeBigShoeImage, bigShoeImg}) => {
   return (
     <div className={`border-2 rounded-xl
       ${bigShoeImg === imgURL.bigShoe
-        ? 'border-coral-red'
+        ? 'border-coral-red border-opacity-85'
         : 'border-gray-400 border-opacity-50'
       } cursor-pointer max-sm:flex-1
     `}
