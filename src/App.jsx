@@ -1,6 +1,6 @@
 import { CustomerReviews, Hero, Footer, PopularProducts, Services, SpecialOffer, Subscribe, NextLevelQuality } from './sections';
 import Nav from './components/Nav';
-
+import 'animate.css';
 
 
 const app = () => (
